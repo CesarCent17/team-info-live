@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import * as signalR from '@microsoft/signalr';
 import { HubConnection, HubConnectionBuilder } from '@microsoft/signalr';
+import { environment } from '../../../environment/environments';
 
+const API_URL: string = environment.url;
 @Component({
   selector: 'app-team-list',
   templateUrl: './team-list.component.html',
@@ -13,7 +15,7 @@ export class TeamListComponent implements OnInit {
 
   constructor() {
     this.hubConnection = new HubConnectionBuilder()
-      .withUrl('https://localhost:7031/teamHub', {
+      .withUrl(API_URL, {
         skipNegotiation: true,
         transport: signalR.HttpTransportType.WebSockets
       })
