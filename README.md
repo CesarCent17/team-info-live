@@ -1,27 +1,36 @@
-# TeamInfoLive
+# Team Info Live 🟢🚀
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
+## Descripción
 
-## Development server
+Team Info Live es una aplicación de frontend desarrollada en Angular que proporciona información en tiempo real sobre equipos de fútbol utilizando WebSockets.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Objetivo del Proyecto
 
-## Code scaffolding
+El objetivo principal de este proyecto es aprender y poner en práctica el uso de WebSockets para lograr una comunicación continua y en tiempo real con el servidor.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Captura de Pantalla
 
-## Build
+### Versión de Escritorio
+![Captura de Pantalla 1](./src/assets/screenshot/screenshot1.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Versión Móvil
+![Captura de Pantalla 1](./src/assets/screenshot/screenshot2.png)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Requisitos
 
-## Running end-to-end tests
+Asegúrate de tener instalado lo siguiente antes de comenzar:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [Node.js](https://nodejs.org/)
+- [Angular CLI](https://cli.angular.io/)
 
-## Further help
+## Instalación
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clona este repositorio: `git clone https://github.com/CesarCent17/team-info-live`
+2. Navega al directorio del proyecto: `cd team-info-live`
+3. Instala las dependencias: `npm install`
+
+## Uso
+
+1. Inicia la aplicación en modo de desarrollo: `ng serve`
+2. Abre tu navegador y visita `http://localhost:4200`
