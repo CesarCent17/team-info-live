@@ -1,0 +1,21 @@
+<div class="team-list-container">
+  <h1 class="title">Football Teams in Real Time ✨</h1>
+  <div class="list">
+    <ul>
+      <li *ngFor="let team of teams" class="team-card">
+        <h2>{{ team.name }}</h2>
+        <p>{{ team.city }} - Foundation year: {{ team.yearFounded }}</p>
+      </li>
+    </ul>
+
+    <div *ngIf="teams.length === 0">
+      <ul *ngFor="let _ of [].constructor(15); let i = index">
+        <li class="team-card">
+          <h2>Example</h2>
+          <p>London - Foundation year: 1889</p>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
