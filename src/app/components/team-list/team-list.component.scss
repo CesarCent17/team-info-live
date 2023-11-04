@@ -83,11 +83,18 @@
 
   .team-list-container{
     .title {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
-
     .team-card {
       width: 20rem;
+    }
+    .team-card h2 {
+      font-size: 1.3rem;
+
+    }
+
+    .team-card p {
+      font-size: 0.8rem;
     }
   }
 }
