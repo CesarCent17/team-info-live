@@ -17,15 +17,27 @@
     height: 5rem;
     margin: 0;
     padding: 0;
+
+    .title-football{
+      color: white;
+    }
   }
 
   .team-card {
-    background-color: #ffffff;
+    background-color: #0d1419;
+    border: 1px solid #1b2832;
+    cursor: pointer;
     border-radius: 8px;
     width: 35rem;
-    padding: 0.5rem;
+    padding: 0.8rem;
     position: relative;
     margin-top: 1rem;
+    transition:  background-color 0.3s;
+  }
+
+
+  .team-card:hover {
+    background-color: #1b2832;
   }
 
   .team-card h2 {
@@ -36,8 +48,9 @@
   }
 
   .team-card p {
+    color: rgb(199, 199, 199);
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0;
     padding: 0;
   }
